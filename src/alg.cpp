@@ -1,6 +1,7 @@
 // Copyright 2021 NNTU-CS
 
 #include <iostream>
+
 int cbinsearch(int* arr, int size, int value) {
     int middle1 = 0;
     int middle2 = 0;
@@ -8,12 +9,6 @@ int cbinsearch(int* arr, int size, int value) {
     int left = 0;
     int right = size;
     bool flag = false;
-    
-    /*if (size % 2 == 0) {
-        middle = size / 2;
-    } else {
-        middle = ((size - 1) / 2);
-    }*/
 
     while (left < right) {
         middle1 = ((size - 1) / 2);
