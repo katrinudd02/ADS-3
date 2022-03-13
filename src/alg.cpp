@@ -8,7 +8,7 @@ int cbinsearch(int* arr, int size, int value) {
     int right = size;
     int count = 0;
     
-    while (1) {
+    while (left < right) {
         if (size % 2 == 0) {
             middle = size / 2;
         }
